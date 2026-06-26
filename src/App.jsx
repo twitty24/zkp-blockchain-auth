@@ -249,7 +249,7 @@ export default function App() {
         <div style={{ marginTop: '35px', borderTop: '1px solid rgba(255,255,255,0.04)', paddingTop: '25px' }}>
           <div style={{ display: 'flex', justifyContext: 'space-between', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
             <span style={{ color: '#656a7e', fontSize: '11px', fontWeight: '600', letterSpacing: '0.5px' }}>
-              📊 ZKAUTH SMART CONTRACT LEDGER STATE
+              📊 ZKAUTH 
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <span style={{ width: '6px', height: '6px', background: walletAddress ? '#00ff88' : '#ff5555', borderRadius: '50%' }}></span>
