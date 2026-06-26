@@ -196,7 +196,7 @@ export default function App() {
                 boxShadow: '0 4px 15px rgba(0, 255, 102, 0.25)'
               }}
             >
-              Secure Login
+               Login
             </button>
           </div>
         </form>
@@ -217,7 +217,7 @@ export default function App() {
         <div style={{ marginTop: '30px', borderTop: '1px solid #1f2330', paddingTop: '20px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
             <span style={{ color: '#717585', fontSize: '11px', fontWeight: '600' }}>
-              📊 ZKAUTH_SMART_CONTRACT_LEDGER_STATE
+              📊 ZKAUTH_SMART_CONTRACT
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <span style={{ width: '6px', height: '6px', background: walletAddress ? '#00ff66' : '#ff5555', borderRadius: '50%' }}></span>
@@ -234,7 +234,7 @@ export default function App() {
             color: '#a3a7b6', border: '1px solid #14161f', margin: 0
           }}>
             {Object.keys(blockchainLedger).length === 0 
-              ? '// Belum ada node terdaftar di jaringan.' 
+              ? ' Belum ada node terdaftar di jaringan.' 
               : JSON.stringify(blockchainLedger, null, 2)
             }
           </pre>
